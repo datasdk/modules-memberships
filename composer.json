@@ -1,0 +1,36 @@
+{
+    "name": "nwidart/memberships",
+    "description": "Membership module for a Laravel 10 project",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0",
+        "laravelcm/laravel-subscriptions": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Memberships\\": "",
+            "Modules\\Memberships\\Database\\Factories\\": "database/factories/",
+            "Modules\\Memberships\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Memberships\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
