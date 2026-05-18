@@ -1,7 +1,10 @@
 {
-    "name": "nwidart/memberships",
+    "name": "datasdk/memberships-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "Membership module for a Laravel 10 project",
-    "type": "library",
+ 
     "require": {
         "php": ">=8.1",
         "laravel/framework": "^10.0",
@@ -9,8 +12,8 @@
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
